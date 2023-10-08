@@ -33,6 +33,7 @@ def get_info(wh, info):
             return f"В базе не найдено ничего по {wh} {info}"
         else:
             res = "Найдено: " + str(q[0]) + " " + str(q[1]) + " " + str(q[2])
+            print(res)
             return res
 
     except:
